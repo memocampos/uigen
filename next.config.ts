@@ -1,0 +1,9 @@
+// Import the compatibility fix first
+import './node-compat.cjs';
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  devIndicators: false,
+};
+
+export default nextConfig;
